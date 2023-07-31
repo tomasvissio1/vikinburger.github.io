@@ -1,0 +1,13 @@
+[{"id":0,"categoria":1,"nombre":"Griega","img":"img/ham1.png","precio":2500,"descripcion":"carne de res 200gr, lechuga, tomate, salsa barbacoa"},
+{"id":1,"categoria":1,"nombre":"Itaiana","img":"img/ham2.png","precio":2500,"descripcion":"tal tal tal tal tal cosa"},
+{"id":2,"categoria":1,"nombre":"Nordica","img":"img/ham3.png","precio":2500,"descripcion":"tal tal tal tal tal cosa"},
+{"id":3,"categoria":1,"nombre":"yankiee","img":"img/ham4.png","precio":2500,"descripcion":"tal tal tal tal tal cosa"},
+{"id":4,"categoria":1,"nombre":"crack","img":"img/ham5.png","precio":2500,"descripcion":"tal tal tal tal tal cosa"},
+{"id":5,"categoria":1,"nombre":"Argenta","img":"img/ham6.png","precio":2500,"descripcion":"tal tal tal tal tal cosa"},
+{"id":6,"categoria":2,"nombre":"Cola 500ml","img":"img/gas1.png","precio":400,"descripcion":""},
+{"id":7,"categoria":2,"nombre":"Fanta 500ml","img":"img/gas2.png","precio":400,"descripcion":""},
+{"id":8,"categoria":2,"nombre":"Sprite 500ml","img":"img/gas3.png","precio":400,"descripcion":""},
+{"id":8,"categoria":2,"nombre":"Paso de los toros 500ml","img":"img/gas4.png","precio":400,"descripcion":""},
+{"id":8,"categoria":2,"nombre":"Mirinda 500ml","img":"img/gas5.png","precio":400,"descripcion":""},
+{"id":9,"categoria":3,"nombre":"papas","img":"img/papas.png","precio":600,"descripcion":""},
+{"id":10,"categoria":3,"nombre":"aros de cebolla","img":"img/aros.png","precio":600,"descripcion":""}]

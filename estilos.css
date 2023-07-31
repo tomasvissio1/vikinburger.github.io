@@ -1,0 +1,185 @@
+@font-face {
+    font-family: Bitcheese;
+    src: url("fuente/Bitcheese.ttf");
+}
+#color{
+    color: red;
+    text-align: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+    display: none!important;
+}
+
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: Bitcheese;
+}
+
+/* CLASES */
+.textos{
+    font-family: Bitcheese;
+    text-align: center;
+}
+.contenedor{
+    width: 90%;
+    margin: auto;
+}
+.contenedor img{
+    border-top-right-radius: 24px;
+    border-top-left-radius: 24px;
+}
+.marcadores{
+    text-align: center;
+    font-family: Bitcheese;
+    color: white;
+    background-color: rgb(54, 52, 52);
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+}
+
+
+
+/* SECCION PORTADA */
+#portadaPc{
+    display: none;
+}
+#portada{
+    display: block;
+    height: 70vh;
+}
+#portada h1{
+    font-size: 2rem;
+    font-family: Bitcheese;
+    text-align: center;
+    margin: auto;
+    margin: 10% 0 10% 0;
+}
+
+/* SECCION SELECCION*/
+
+#seleccion img{
+    width: 80%;
+    margin: auto;
+}
+#seleccion h2{
+    margin-bottom: 10%;
+}
+
+/* SECCION POPUP */
+.oscuridad{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+    left: 0%;
+    top: 0%;
+    right: 0;
+    bottom: 0;
+}
+#popup{
+    position: fixed;
+    left: 10%;
+    top: 10%;
+}
+#popup h5{
+    font-size: 2rem;
+}
+#popup p{
+    font-size: 1rem;
+}
+
+/* SECCION CARRO */
+#carro{
+    display: none;
+}
+#carro div{
+    position: fixed;
+    right: -10%;
+    bottom: 10%;
+    z-index: 20!important;
+}
+#carro img{
+    width: 50%;
+    margin: auto;
+    
+}
+
+/* SECCION INFO DEL CARRITO */
+#infoCarro{
+    display: none;
+}
+#infoDelCarro{
+    position: fixed;
+    left: 10%;
+    right: 10%;
+    top: 10%;
+    bottom: 10%;
+    display: none;
+    background-color: white;
+    border-radius: 24px;
+    z-index: 30;
+    margin: auto;
+    text-align: center;
+    
+    overflow: hidden;
+    overflow-y: scroll;
+}
+#infoDelCarro li{
+    font-size: 1.5rem;
+    list-style: none;
+}
+
+/* PARA PC */
+
+@media (min-width:400px){
+
+    /* SECCION PORTADA */
+    #portada{
+        display: none;
+    }
+    #portadaPc{
+        display: block;
+    }
+    #portadaPc h1{
+        text-align: center;
+        font-family: Bitcheese;
+        margin: 5% 0;
+    }
+    #portadaDivisor{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        margin-bottom: 5%;
+    }
+    .divisor{
+        width: 30%;
+        margin: auto;
+    }
+    .divisor img{
+        width: 100%;
+    }
+
+
+    /* SECCION CARRITO */
+    #carro div{
+        position: fixed;
+        right: 0%;
+        bottom: 10%;
+    }
+
+    #seleccion h2{
+        margin-bottom: 5%;
+    }
+
+    #color{
+        color: blue;
+    }
+}
